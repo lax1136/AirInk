@@ -7,7 +7,7 @@ Instead of using a mouse, keyboard, or touchscreen, users can use their hands in
 
 ✨ Features
 
-🎨 Air Drawing – Draw using your index finger.
+🎨 Air Drawing – Draw using your index finger.<br>
 ✋ Hand Gesture Recognition – Detects hand movements and gestures using real-time hand tracking.
 🖐️ Two-Hand Interaction – Use one hand for drawing and another for controlling strokes.
 🧹 Erase – Use a pinch gesture to erase nearby strokes.
