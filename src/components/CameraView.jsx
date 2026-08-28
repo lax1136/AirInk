@@ -19,7 +19,7 @@ const CameraView = ({ onResults }) => {
         });
         video.srcObject = stream;
         video.onloadedmetadata = () => {
-          video.play();
+          video.play().catch(err => console.error('play() failed:', err));
           startTracking();
         };
       } catch (err) {
@@ -63,6 +63,8 @@ const CameraView = ({ onResults }) => {
     }}>
       <video
         ref={videoRef}
+        muted
+        autoplay
         style={{
           width: '100%',
           height: '100%',

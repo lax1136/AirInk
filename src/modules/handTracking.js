@@ -1,4 +1,5 @@
 // Using global MediaPipe from CDN (added in index.html) to avoid Vite bundling issues
+// Using global MediaPipe from CDN (added in index.html) to avoid Vite bundling issues
 const getHandsConstructor = () => {
   if (typeof window !== 'undefined' && window.Hands) return window.Hands;
   return null;
