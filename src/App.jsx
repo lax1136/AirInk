@@ -1,7 +1,7 @@
 import React, { useState, useRef, useCallback, useMemo } from 'react';
 import CameraView from './components/CameraView';
 import DrawingCanvas from './components/DrawingCanvas';
-import HelpPanel from './components/HelpPanel';
+import HelpPanel from './components/HelpPanel.jsx';
 import ControlPanel from './components/ControlPanel';
 import { GestureInterpreter, CONTROL_GESTURES } from './modules/gestureInterpreter';
 import { GESTURES } from './modules/gestureController';
