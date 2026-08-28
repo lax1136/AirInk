@@ -1,8 +1,8 @@
 import React, { useState, useRef, useCallback, useMemo } from 'react';
-import CameraView from './components/CameraView';
-import DrawingCanvas from './components/DrawingCanvas';
+import CameraView from './components/CameraView.jsx';
+import DrawingCanvas from './components/DrawingCanvas.jsx';
 import HelpPanel from './components/HelpPanel.jsx';
-import ControlPanel from './components/ControlPanel';
+import ControlPanel from './components/ControlPanel.jsx';
 import { GestureInterpreter, CONTROL_GESTURES } from './modules/gestureInterpreter';
 import { GESTURES } from './modules/gestureController';
 import { motion, AnimatePresence } from 'framer-motion';
