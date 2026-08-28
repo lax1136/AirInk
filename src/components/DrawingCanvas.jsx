@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, forwardRef, useImperativeHandle } from 'react';
 import { DrawingEngine } from '../modules/drawingEngine';
 import { StrokeManager } from '../modules/strokeManager';
-import { InteractionEngine } from '../modules/interactionEngine';
+import { InteractionEngine } from '../modules/interactionengine';
 import { TransformEngine } from '../modules/transformEngine';
 
 const DrawingCanvas = forwardRef(({ 
